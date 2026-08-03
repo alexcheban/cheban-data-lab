@@ -59,7 +59,7 @@ DELETE FROM hotels WHERE id = 1;
 SELECT COUNT(*) AS bookings_after_delete FROM bookings;
 ROLLBACK;
 SELECT COUNT(*) AS bookings_after_rollback FROM bookings;
-END;
+
 
 
 
